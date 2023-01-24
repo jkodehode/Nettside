@@ -1,0 +1,88 @@
+/** FONT IMPORT */
+@font-face {
+  font-family: lemurRegular;
+  src: url("../assets/Lemur_v1_web/Lemur-Regular.woff");
+}
+
+@font-face {
+  font-family: lemurLight;
+  src: url("../assets/Lemur_v1_web/Lemur-Light.woff");
+}
+
+@font-face {
+  font-family: lemurMedium;
+  src: url("../assets/Lemur_v1_web/Lemur-Medium.woff");
+}
+
+@font-face {
+  font-family: lemurBold;
+  src: url("../assets/Lemur_v1_web/Lemur-Bold.woff");
+}
+
+/** HEADER */
+
+.headersection {
+  background-image: url("../images/heroImg.png");
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px 0;
+  background-color: #a5172511;
+}
+.navreturnImg {
+  width: 35px;
+  cursor: pointer;
+}
+
+.navreturnImg:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.logoHeader {
+  width: 250px;
+  height: 100%;
+}
+/** SECTION 2 */
+
+.s2 {
+  background-image: url("../images/galleri/img04.jpg");
+  background-size: cover;
+}
+
+.s3 {
+  background-image: url("../images/galleri/img03.jpg");
+  background-size: cover;
+}
+
+.s4 {
+  background-image: url("../images/galleri/img01.jpg");
+  background-size: cover;
+}
+
+.slide1 {
+  background-image: url("../images/galleri/img09.jpg");
+  background-size: cover;
+}
+
+.slide2 {
+  background-image: url("../images/galleri/img07.jpg");
+  background-size: cover;
+}
+
+.slide3 {
+  background-image: url("../images/galleri/img08.jpg");
+  background-size: cover;
+}

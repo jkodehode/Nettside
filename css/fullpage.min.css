@@ -73,9 +73,8 @@ html.fp-enabled {
   width: 50px;
   height: 50px;
   border-style: solid;
-  background-color: rgba(0, 0, 0, 0.521);
   margin: 20px;
-  border-radius: 10px;
+  border-radius: 2px;
   border-color: white;
 }
 .fp-arrow.fp-prev {
@@ -89,8 +88,7 @@ html.fp-enabled {
 .fp-arrow:hover,
 .fp-arrow.fp-prev:hover {
   scale: 1.1;
-  background-color: #fff;
-  border-color: transparent transparent transparent rgb(0, 0, 0);
+  border-color: transparent transparent transparent rgba(255, 255, 255, 0.815);
 }
 
 .fp-notransition {

@@ -101,9 +101,18 @@ p {
 
 .tekstboks {
   background-color: white;
-  width: 80%;
+  max-width: 600px;
   text-align: center;
   margin: 30px auto;
+  padding: 40px;
+}
+
+.tekstboksmini {
+  background-color: rgba(255, 255, 255, 0.89);
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+  margin: 150px auto;
   padding: 40px;
 }
 
@@ -117,7 +126,7 @@ p {
 
 .tekstboxyellow {
   background-color: #d8ca01;
-  margin: 40px 0;
+  margin: auto;
   padding: 50px;
 }
 
@@ -134,10 +143,8 @@ p {
 }
 
 .slideImg {
-  width: 70%;
-  align-self: center;
+  width: 50%;
   margin: auto;
-  padding: 1rem;
 }
 .slide2 {
   background-color: #d8ca01;

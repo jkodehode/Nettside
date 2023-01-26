@@ -29,7 +29,7 @@ html.fp-enabled {
 .fp-slide,
 .fp-slidesContainer {
   height: 100%;
-  display: block;
+  display: flex;
 }
 .fp-slides {
   z-index: 1;
@@ -70,9 +70,13 @@ html.fp-enabled {
   right: 15px;
 }
 .fp-arrow {
-  width: 0;
-  height: 0;
+  width: 50px;
+  height: 50px;
   border-style: solid;
+  background-color: rgba(0, 0, 0, 0.521);
+  margin: 20px;
+  border-radius: 10px;
+  border-color: white;
 }
 .fp-arrow.fp-prev {
   border-width: 38.5px 34px 38.5px 0;
@@ -82,6 +86,13 @@ html.fp-enabled {
   border-width: 38.5px 0 38.5px 34px;
   border-color: transparent transparent transparent #fff;
 }
+.fp-arrow:hover,
+.fp-arrow.fp-prev:hover {
+  scale: 1.1;
+  background-color: #fff;
+  border-color: transparent transparent transparent rgb(0, 0, 0);
+}
+
 .fp-notransition {
   -webkit-transition: none !important;
   transition: none !important;
@@ -232,8 +243,11 @@ html.fp-enabled {
 .fp-is-overflow > .fp-overflow {
   overflow-y: auto;
 }
+
+/* legger til text align */
 .fp-overflow {
   outline: 0;
+  text-align: center;
 }
 .fp-overflow.fp-table {
   display: block;

@@ -155,6 +155,26 @@ p {
   background-size: cover;
 }
 
+/** Trailer  */
+
+.trailerVid {
+  height: 80vh;
+}
+
+/** Medvirkende */
+
+.medvirkendeImg {
+  height: 40%;
+  margin: 50px 0;
+}
+
+.medvirkendeBox {
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  max-width: 80%;
+}
+
 /** FOOTER  */
 
 .f1 {

@@ -73,15 +73,6 @@ p {
   height: 100%;
 }
 
-.heroTitle {
-  text-align: center;
-  color: rgb(0, 0, 0);
-  font-size: 50px;
-
-  font-weight: bold;
-  letter-spacing: 0.5rem;
-}
-
 .heroInfo {
   color: black;
   background-color: #ffffff;
@@ -90,6 +81,21 @@ p {
   display: flex;
   justify-content: space-between;
   text-align: center;
+}
+.heroTitle {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 5rem;
+  flex-wrap: wrap;
+  font-weight: bold;
+  letter-spacing: 0.5rem;
+  margin: auto;
+}
+
+.heroDetailsBox {
+  margin: 50px;
+  padding: 50px;
+  background-color: #ffffffd8;
 }
 
 /** SECTION 2 */
@@ -179,7 +185,14 @@ p {
 /** FOOTER  */
 
 .f1 {
-  background-color: #d71f39;
+  background-color: #6d111a;
+}
+
+.f1 h3 {
+  text-align: center;
+  font-size: 35px;
+  padding: 20px;
+  color: white;
 }
 
 .f1 section {
@@ -187,13 +200,23 @@ p {
 }
 
 .kommende {
-  background-color: #6d111a;
+  background-color: #d71f39;
   color: white;
-  margin: 30px;
-  padding: 30px;
+  margin: auto;
+  padding: 20px;
+  width: 100%;
+}
+
+.kommende p,
+.kommende img {
 }
 
 footer {
   background-color: black;
   height: 100px;
+}
+.footerLogo {
+  width: 200px;
+  margin: auto;
+  text-align: center;
 }

@@ -97,6 +97,7 @@ p {
 .s2 {
   background-image: url("../images/galleri/img04.jpg");
   background-size: cover;
+  padding: 50px;
 }
 
 .tekstboks {

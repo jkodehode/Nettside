@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Teater Ibsen Fullpage</title>
-
+    <link
+      rel="icon"
+      type="image/png"
+      href="./images/android-chrome-192x192-2-100x100.png"
+    />
     <link rel="stylesheet" href="./css/fullpage.min.css" />
     <link rel="stylesheet" href="./css/stylefullpage.css" />
   </head>
@@ -89,6 +93,7 @@
           <div class="slide slide1">
             <div class="tekstboks">
               <h2>Overskrift</h2>
+              <br />
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
                 eaque quidem dolore saepe. Commodi quasi qui necessitatibus
@@ -179,22 +184,22 @@
       <!--* Billedgalleri  -->
 
       <div class="section">
-        <div class="slide slide1">
+        <div class="slide imgSlide1">
           <img class="slideImg" src="./images/galleri/img03.jpg" alt="" />
         </div>
-        <div class="slide slide2">
+        <div class="slide imgSlide2">
           <img class="slideImg" src="./images/galleri/img02.jpg" alt="" />
         </div>
-        <div class="slide slide3">
+        <div class="slide imgSlide3">
           <img class="slideImg" src="./images/galleri/img04.jpg" alt="" />
         </div>
-        <div class="slide slide1">
+        <div class="slide imgSlide1">
           <img class="slideImg" src="./images/galleri/img05.jpg" alt="" />
         </div>
-        <div class="slide slide2">
+        <div class="slide imgSlide2">
           <img class="slideImg" src="./images/galleri/img01.jpg" alt="" />
         </div>
-        <div class="slide slide3">
+        <div class="slide imgSlide3">
           <img class="slideImg" src="./images/galleri/img08.jpg" alt="" />
         </div>
       </div>
@@ -242,7 +247,23 @@
       <!--* Medvirkende  -->
 
       <div class="section">
-        <div class="slide slide1">
+        <div class="slide medSlide1">
+          <img
+            class="medvirkendeImg"
+            src="./images/galleri/person_temp.jpg"
+            alt=""
+          />
+          <div class="medvirkendeBox">
+            <h3>navn</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ad
+              officiis repudiandae blanditiis magni voluptate dolorem nisi
+              corrupti veritatis nulla minus, veniam natus omnis reprehenderit
+              molestiae dolorum, atque at iusto.
+            </p>
+          </div>
+        </div>
+        <div class="slide medSlide2">
           <img
             class="medvirkendeImg"
             src="./images/galleri/person_temp.jpg"
@@ -253,7 +274,7 @@
             <p>tekst</p>
           </div>
         </div>
-        <div class="slide slide2">
+        <div class="slide medSlide3">
           <img
             class="medvirkendeImg"
             src="./images/galleri/person_temp.jpg"
@@ -264,7 +285,7 @@
             <p>tekst</p>
           </div>
         </div>
-        <div class="slide slide3">
+        <div class="slide medSlide1">
           <img
             class="medvirkendeImg"
             src="./images/galleri/person_temp.jpg"
@@ -275,7 +296,7 @@
             <p>tekst</p>
           </div>
         </div>
-        <div class="slide slide1">
+        <div class="slide medSlide2">
           <img
             class="medvirkendeImg"
             src="./images/galleri/person_temp.jpg"
@@ -286,18 +307,7 @@
             <p>tekst</p>
           </div>
         </div>
-        <div class="slide slide2">
-          <img
-            class="medvirkendeImg"
-            src="./images/galleri/person_temp.jpg"
-            alt=""
-          />
-          <div class="medvirkendeBox">
-            <h3>navn</h3>
-            <p>tekst</p>
-          </div>
-        </div>
-        <div class="slide slide3">
+        <div class="slide medSlide3">
           <img
             class="medvirkendeImg"
             src="./images/galleri/person_temp.jpg"
@@ -319,26 +329,27 @@
         <h3 class="kommendeTitle">Kommende forestillinger</h3>
         <section>
           <div class="slide kommende">
-            <h2>Overskrift</h2>
+            <h2 class="kommendeOverskrift">ENSOM FLUKT</h2>
             <img src="./images/kommende01.jpg" alt="" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
-              eaque quidem dolore saepe. Commodi quasi qui necessitatibus
-              doloremque aut nostrum accusamus voluptatem praesentium? Veritatis
-              quibusdam mollitia facilis, sapiente totam quasi.
+            <p class="kommendeInfo">
+              Norgespremieren på Caryl Churchills praktfulle "ENSOM FLUKT" ser
+              du hos oss fra 15.mars! Gå ikke glipp av denne varme og
+              interessante forestillingen som tar for seg noen av vår tids
+              største utfordringer...
             </p>
+            <br />
+            <p class="kommendeDato">Premiere: 15.mars 2023</p>
           </div>
           <div class="slide kommende">
-            <h2>Overskrift</h2>
+            <h2 class="kommendeOverskrift">MYSTERIET MYRNA VEP 2023</h2>
             <img src="./images/kommende02.jpg" alt="" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
-              eaque quidem dolore saepe. Commodi quasi qui necessitatibus
-              doloremque aut nostrum accusamus voluptatem praesentium? Veritatis
-              quibusdam mollitia facilis, sapiente totam quasi.
+            <p class="kommendeInfo">
+              ...men Myrna Vep var ikke død! Kultklassikeren "Mysteriet Myrna
+              Vep" er tilbake også i 2023. Helén Vikstvedt er klar, Monica
+              Hjelle er klar - er du? Spilles kun på Klosterøya i Skien!
             </p>
-            <h3>Dato</h3>
-            <button>Kjøp</button>
+            <br />
+            <p class="kommendeDato">Premiere: 17.november 2023</p>
           </div>
           <div>
             <footer>
@@ -363,6 +374,8 @@
         //options here
         autoScrolling: true,
         scrollHorizontally: true,
+        navigation: true,
+        continuousHorizontal: true,
       });
     </script>
   </body>

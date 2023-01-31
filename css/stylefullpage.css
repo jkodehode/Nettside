@@ -159,10 +159,26 @@ p {
 
 /** Bildegalleri  */
 .slideImg {
-  width: 50%;
+  max-width: 800px;
   margin: auto;
   border: 30px white solid;
+  overflow: hidden;
 }
+
+@media (max-width: 800px) {
+  .slideImg {
+    max-width: 450px;
+    border: 20px white solid;
+  }
+}
+
+@media (max-width: 450px) {
+  .slideImg {
+    max-width: 350px;
+    border: 10px white solid;
+  }
+}
+
 .imgSlide1 {
   background-color: #d8ca01;
   background-size: cover;
@@ -193,7 +209,22 @@ p {
 }
 
 .trailerVid {
-  height: 80vh;
+  text-align: center;
+  overflow: hidden;
+  border: #2c0a27 solid 15px;
+  max-width: 700px;
+}
+
+@media (max-width: 700px) {
+  .trailerVid {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 450px) {
+  .trailerVid {
+    max-width: 350px;
+  }
 }
 
 /** Medvirkende */

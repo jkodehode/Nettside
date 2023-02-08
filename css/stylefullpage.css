@@ -411,8 +411,17 @@ p {
 .medSlide3 {
 }
 
+.besetning {
+  background-color: #d8ca01;
+}
+
+.besetningTitle {
+  color: #000000;
+  font-size: 25px;
+}
+
 .besetningTekst {
-  color: white;
+  color: black;
   text-align: center;
   line-height: 40px;
   font-size: 15px;

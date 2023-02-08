@@ -46,7 +46,7 @@ p {
 /** HEADER */
 
 .headersection {
-  background-image: url("../images/heroImg.png");
+  background-image: url("../images/Bakgrunner/bg01.jpg");
   background-size: cover;
   background-position: center;
   background-size: cover;
@@ -165,7 +165,7 @@ p {
 /** SECTION 2 */
 
 .s2 {
-  background-image: url("../images/galleri/img04.jpg");
+  background-image: url("../images/Bakgrunner/bg02.jpg");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -193,7 +193,8 @@ p {
 .tekstboks {
   background-color: rgba(255, 255, 255, 0.932);
   max-width: 600px;
-
+  line-height: 25px;
+  letter-spacing: 3px;
   margin: auto;
   padding: 20px;
 }
@@ -259,7 +260,7 @@ p {
 
 /* * Kommentar felt */
 .s3 {
-  background-image: url("../images/galleri/img03.jpg");
+  background-image: url("../images/Bakgrunner/bg03.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -269,6 +270,17 @@ p {
 
 .s4 {
   background-color: #d8ca01;
+}
+
+.trailerTitle {
+  font-size: 35px;
+  color: #2c0a27;
+  text-align: center;
+  padding: 20px;
+}
+
+.trailerBox {
+  background-color: #2c0a27;
 }
 
 .trailerVid {

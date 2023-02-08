@@ -123,7 +123,7 @@ p {
 /** INNHOLDSfortegnelse   */
 
 .innholdLogo {
-  width: 200px;
+  width: 100px;
   margin: auto;
   text-align: center;
 }
@@ -160,6 +160,26 @@ p {
   border: none;
   margin: 20px;
   margin-bottom: 50px;
+}
+
+@media (max-width: 450px) {
+  .innholdLogo {
+    width: 50px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .innholdOverview button {
+    font-size: 25px;
+  }
+  .innholdOverview button:last-child {
+    font-size: 15px;
+  }
+
+  .innholdOverview h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
 }
 
 /** SECTION 2 */
@@ -258,6 +278,22 @@ p {
   height: 80%;
 }
 
+/** Leseboks  */
+
+.leseboks {
+  background-color: rgba(255, 255, 255, 0.932);
+  max-width: 600px;
+  line-height: 25px;
+  letter-spacing: 3px;
+  margin: auto;
+  padding: 20px;
+}
+
+@media (max-width: 450px) {
+  .leseboks {
+  }
+}
+
 /* * Kommentar felt */
 .s3 {
   background-image: url("../images/Bakgrunner/bg03.jpg");
@@ -326,6 +362,9 @@ p {
   align-items: center;
 }
 
+@media (max-width: 450px) {
+}
+
 /** Medvirkende */
 
 .medvirkendeTitle {
@@ -362,6 +401,7 @@ p {
 
 @media (max-width: 450px) {
   .medvirkendeImg {
+    border: 10px white solid;
   }
 }
 .medSlide1 {
@@ -369,6 +409,22 @@ p {
 .medSlide2 {
 }
 .medSlide3 {
+}
+
+.besetningTekst {
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  font-size: 15px;
+  padding: 10px 20px;
+}
+
+@media (max-width: 450px) {
+  .besetningTekst {
+    line-height: 20px;
+    font-size: 10px;
+    padding: 10px 20px;
+  }
 }
 
 /** BonusPage  */

@@ -483,8 +483,23 @@ p {
   width: 100%;
 }
 
+.kommendeTitle {
+  font-size: 35px;
+  text-align: center;
+}
+
 .kommendeOverskrift {
   font-size: 50px;
+}
+
+@media (max-width: 450px) {
+  .kommendeOverskrift {
+    font-size: 30px;
+  }
+  .kommendeTitle {
+    font-size: 20px;
+    padding: 5px 0;
+  }
 }
 
 .kommende img {
@@ -505,6 +520,21 @@ p {
   font-size: 20px;
 }
 
+.kommendeLink {
+  background-color: white;
+  font-size: 20px;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 3px;
+  margin-top: 12px;
+  padding-bottom: 6px;
+  cursor: pointer;
+}
+
+.kommendeLink:hover {
+  opacity: 0.8;
+}
+
 @media (max-width: 700px) {
   .kommende img {
     max-width: 450px;
@@ -513,22 +543,30 @@ p {
 
 @media (max-width: 450px) {
   .kommende img {
-    max-width: 350px;
+    max-width: 280px;
+    border: 7px rgba(255, 255, 255, 0.062) solid;
+  }
+  .kommendeInfo {
+    font-size: 13px;
+    padding: 0 12px;
   }
 }
 
 footer {
   display: flex;
-  justify-content: space-between;
-  height: auto !important;
-  position: absolute;
+  justify-content: center;
+
+  flex-direction: column;
+
+  margin: 0;
+  margin-top: 10px;
 }
 
 .barButton {
   cursor: pointer;
   border: none;
   background-color: black;
-  color: #d8ca01;
+  color: #ffffff;
   margin: auto;
   padding: 7px 15px;
   font-size: 25px;
@@ -537,12 +575,39 @@ footer {
 
 .barButton:hover {
   scale: 1.1;
-  background-color: #2c0a27;
-  color: white;
+  opacity: 0.7;
 }
 
+.bottomLinks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 30px;
+}
 .footerLogo {
-  width: 200px;
+  width: 50px;
   margin: auto;
   text-align: center;
+}
+
+.socialLink1 {
+  background-image: url("../images/inst_min.png");
+}
+
+.socialLink2 {
+  background-image: url("../images/fb_min.png");
+}
+
+.socialLink {
+  border: none;
+  background-color: #00000000;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.socialLink:hover {
+  opacity: 0.8;
+  scale: 1.1;
 }

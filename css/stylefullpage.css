@@ -101,6 +101,10 @@ p {
   max-width: 600px;
 }
 
+.heroDetails {
+  bottom: 0px;
+}
+
 .heroDetailsBox {
   max-width: 300px;
   margin: 30px auto;
@@ -111,6 +115,10 @@ p {
 @media (max-width: 450px) {
   .heroTitle {
     font-size: 1.5rem;
+  }
+
+  .heroDetails {
+    position: absolute;
   }
   .heroDetailsBox h2 {
     font-size: 1.5rem;
@@ -360,7 +368,7 @@ p {
   .youtube-video {
     aspect-ratio: 16 / 9;
     max-width: 90%;
-    max-height: 600px;
+    max-height: 300px;
   }
 }
 

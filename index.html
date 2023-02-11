@@ -93,15 +93,27 @@
         <img class="innholdLogo" src="./images/TI_symbol_RGB_hvit.png" alt="" />
         <div class="innholdOverview">
           <h2>Innhold</h2>
-          <button>Forestillingen</button>
+          <a href="#three">
+            <button>Forestillingen</button>
+          </a>
           <!-- <button>Kommentarer</button> -->
-          <button>Bildegalleri</button>
-          <button>Trailer-video</button>
+          <a href="#five">
+            <button>Bildegalleri</button>
+          </a>
+          <a href="#seven">
+            <button>Trailer-video</button>
+          </a>
           <!-- <button>Bak scenen</button> -->
-          <button>Medvirkende</button>
-          <button class="kommendeKnapp">Kommende forestillinger</button>
+          <a href="#eight">
+            <button>Medvirkende</button>
+          </a>
+          <a href="#ten">
+            <button id="kommendeKnapp">Kommende forestillinger</button>
+          </a>
         </div>
-        <img class="pilImg2" src="./images/pilned.png" alt="" width="32px" />
+        <a href="#three">
+          <img class="pilImg2" src="./images/pilned.png" alt="" width="32px" />
+        </a>
       </div>
 
       <!--*! -- -->
@@ -159,7 +171,9 @@
             </div>
           </div>
         </div>
-        <img class="pilImg" src="./images/pilned.png" alt="" />
+        <a href="#four">
+          <img class="pilImg" src="./images/pilned.png" alt="" />
+        </a>
       </div>
 
       <!--*! -- -->
@@ -493,7 +507,7 @@
                 >
                   <button class="socialLink1 socialLink"></button>
                 </a>
-                <a href="">
+                <a href="#one">
                   <img
                     class="footerLogo"
                     src="./images/TI_symbol_RGB_hvit.png"
@@ -525,6 +539,18 @@
     <script src="./js/fullpage.min.js"></script>
     <script type="text/javascript">
       new fullpage("#fullpage", {
+        anchors: [
+          "one",
+          "two",
+          "three",
+          "four",
+          "five",
+          "six",
+          "seven",
+          "eight",
+          "nine",
+          "ten",
+        ],
         //options here
         autoScrolling: true,
         scrollHorizontally: true,

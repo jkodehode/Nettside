@@ -149,6 +149,8 @@ p {
 }
 
 .innholdOverview button {
+  font-family: lemurRegular;
+  text-decoration: none;
   margin: 10px auto;
   color: white;
   font-size: 35px;
@@ -159,7 +161,7 @@ p {
   border-bottom: 5px rgba(255, 255, 255, 0.13) solid;
 }
 
-.innholdOverview button:last-child {
+#kommendeKnapp {
   font-family: lemurLight;
   font-size: 25px;
   font-weight: 200;
@@ -168,6 +170,12 @@ p {
   border: none;
   margin: 20px;
   margin-bottom: 50px;
+}
+
+#kommendeKnapp:hover,
+.innholdOverview button:hover {
+  opacity: 0.7;
+  border-bottom: #ffffff solid 4 px;
 }
 
 @media (max-width: 450px) {
@@ -180,7 +188,7 @@ p {
   .innholdOverview button {
     font-size: 25px;
   }
-  .innholdOverview button:last-child {
+  #kommendeKnapp {
     font-size: 15px;
   }
 
